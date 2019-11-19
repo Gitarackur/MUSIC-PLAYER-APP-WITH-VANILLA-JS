@@ -1,0 +1,199 @@
+@media only screen and (max-width: 500px){
+
+    * {
+        padding : 0;
+        margin : 0;
+        box-sizing: border-box;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        /* font-family: "Open Sans"; */
+        
+      }
+    
+      
+      body{
+        width: 100%;
+        margin: 0%;
+        display: block;
+        background: linear-gradient(to right, #25dac8, #2977d6);
+        color: white;
+      }
+      
+
+      h1{
+        text-align: center;
+        font-size: 1.5em;
+    
+      }
+
+
+
+      #musicplayer{
+        width: 100%;
+        padding: 0px;
+        margin: auto;
+        margin-top: 10%;
+        text-shadow: 1.5px 1.5px white;
+       }
+  
+ 
+       .playerBody{
+        box-shadow: 5px 5px 5px 5px black;
+        background: linear-gradient(to right, #22dddd, #1b0d6a);
+        width: 100%;
+        margin: auto;
+        padding-bottom: 30px;
+        border-radius: 25px;
+       }
+
+
+       .BH{
+        width: 80%;
+        display: block;
+        background-color: white;
+        margin: auto;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+      }
+ 
+      .banner{
+       background: linear-gradient(to right, #22dddd, #1b0d6a);
+       padding: 50px;
+       margin: auto;
+       width: 100%;
+       border-top-left-radius: 30px;
+       border-top-right-radius: 30px;
+       display: block;
+       margin-top: 20px;
+      }
+
+      #SongTitle{
+        width: 80%;
+        margin: auto;
+        padding: 10px;
+        font-size: 15px;
+        color: #1b0d6a;
+        font-weight: bolder;
+        text-align: center;
+        background-color: white;
+        text-shadow: 1.5px 1.5px black;
+       }
+  
+  
+      #PlistButton{
+        display: flex;
+        width: 80%;
+        margin: auto;
+        padding: 50px;
+        background-color: white;
+        border: 1px solid white;
+      }
+  
+
+      #prev, #playPause, #next{
+        border-radius: 50%;
+        width: 30%;
+        height: 30%;
+        padding: 5px; 
+        margin: auto; 
+        cursor: pointer;
+        display: block;
+        background: linear-gradient(to right, #22dddd, #1b0d6a);
+       }
+
+       #prev:hover{
+        transform: scale(1.25, 1.25);
+       }
+       
+       
+      #playPause:hover{
+        transform: scale(1.5, 1.5);
+      }
+       
+       
+      #next:hover{
+         transform: scale(1.5, 1.5);
+       }
+  
+  
+       #meterHolder{
+        background-color: white;
+        width: 80%;
+        margin: auto;
+       }
+
+       #meterHolder{
+        background-color: white;
+        width: 80%;
+        margin: auto;
+       }
+       
+       #meter{
+        width: 80%;
+        margin: auto;
+        display: block;
+        border-radius: 25px;
+        padding: 10px;
+        background: linear-gradient(to right, #22dddd, #1b0d6a);
+       }
+  
+       .loader{
+        width: 0%;
+        padding: 1%;
+        background-color: white;
+        border-radius: 40px;
+      }
+ 
+ 
+      #ShowTime{
+        width: 0%;
+        position: relative;
+        color: #1b0d6a;
+        margin-bottom: 0px;
+        text-align: center;
+        font-size: 18px;
+        text-shadow: 1.5px 1.5px #1b0d6a;
+      }
+      
+      #SR{
+        display: flex;
+        width: 80%;
+        background-color: white;
+        margin: auto;
+      }
+
+      #Shuffle, #Repeat{
+        background: white;
+        background: linear-gradient(to right, #22dddd, #1b0d6a);
+        border-radius: 50%;
+        width: 30%;
+        height:80px;
+        padding: 10px;
+        margin: auto;
+        cursor: pointer;
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: white;
+        text-shadow: 1.5px 1.5px #1b0d6a;
+        font-size: 10px;
+      }
+
+      #IPB{
+        background: white;
+        border-radius: 50%;
+        width: 30%;
+        height:80px;
+        padding: 10px;
+        margin: auto;
+        cursor: pointer;
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        color: white;
+        text-shadow: 1.5px 1.5px #1b0d6a;
+        font-size: 10px;
+        box-shadow: 5px 5px 5px 5px black;
+      }
+
+    }
+    
