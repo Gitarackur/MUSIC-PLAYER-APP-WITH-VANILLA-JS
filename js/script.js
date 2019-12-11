@@ -160,7 +160,7 @@ var Animate= function(){
     
     function Next(){
         index++;
-        if(index ===Songs.length){
+        if(index === Songs.length){
             index= 0;
         }
         PlayAndDisplay();
@@ -173,10 +173,11 @@ var Animate= function(){
     // for playing previous song
 
     function Prev(){
-        index--;
-        if(index<=0){
-            index= 0;
+        
+        if(index=== 0){
+            index= Songs.length;
         }
+         index--;
         PlayAndDisplay();
         // the animation canvas code for the banner
         Animate();
